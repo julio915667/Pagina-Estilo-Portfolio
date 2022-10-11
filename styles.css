@@ -443,4 +443,10 @@ div[class="trwpwhatsappbutton"] span {
 i.fa.fa-whatsapp{
   font-size: 5.35vw !important;
 }
+.fa.fa-paper-plane-o{
+  font-size: 5.35vw !important;
+}
+.trwpwhatsappinput input{
+  font-size: 5.25vw !important;
+}
 }
