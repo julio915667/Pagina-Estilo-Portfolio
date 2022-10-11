@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body{
+    height: 100vh;
+    bottom: 0;
+    min-height: 100vh;
+    position: relative;
+}
+div.containermain{
+    height:1000px;
+}
+.articleServices{
+  background-color: #1f2023;
+  display: flex;
+  color: white;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+.colorBG{
+    background-color: #26272b;
+    color: white;
+}
+
+.btn-edit{
+    background-color: #25d366;
+}
+.bg-edit{
+    background-color: #212121ba;
+}
+nav div a{}
+nav a[class="navbar-brand"]{
+color: rgb(255, 255, 255);
+}
+main{
+   /*background-color:red;
+    height: 500px;*/
+    background-color: antiquewhite;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: center;
+
+    height: 300px;
+    background-color:#212121;
+}
+    footer p{
+        bottom:0 ;
+    }
+main div img{
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    width: 50%;
+}
+
+
+
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#39ff00;
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}
+
+.DATES{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    margin-block: auto;
+}
+
+/*animations*/
+.animate__fadeIn{
+animation-duration: 5s;
+}
+.animate__fadeInDown{
+
+    animation-duration: 5s;
+}
+.offcanvas-body{
+    background-color: #26272b;
+    color: #fff;
+}
+.offcanvas-body ul li a {
+    color: white;
+}
+.offcanvas-header {
+    background-color: #26272b;
+    color: white;
+}
+.colorIconHambur{
+    color: #842029;
+}
+.iconDeveloper{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 65px;
+    color: red;
+}
+.iconTech{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 65px;
+    color: aqua;
+}
+.iconDesing{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 65px;
+    color: #ffc107;
+}
+.animate__lightSpeedInRight, .animate__bounceInLeft,.animate__backInUp{
+  animation-duration:3s;
+}
+article div h2, article div p{
+  text-align: center;
+}
+article div h2{
+  font-family: 'Bebas Neue', cursive;
+}
+section h3{
+  color: #fff;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 3.5vw;
+}
+div div h1[class="text-uppercase"]{
+font-family: 'Bebas Neue';
+font-size:5vw;
+}
+div[class="col-sm-12 col-md-6"] p{
+  color: #fff;
+}
+
+
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+@import url('http://fonts.googleapis.com/css?family=Lato:100,300,400|Raleway:100,300,400,500,600,700|Open+Sans:100,300,400,500,600');
+
+.trwpwhatsappballon {
+font-size: 14px;
+border-radius: 12px; 
+border: 1px solid #fff;
+max-width: 250px;
+}
+
+.trwpwhatsapptitle {
+background-color: #22c15e; 
+color: white; 
+padding: 14px; 
+border-radius: 12px 12px 0px 0px;
+text-align: center;
+font-size:1.25vw;
+}
+
+.trwpwhatsappmessage {
+padding: 16px 12px;
+background-color: white;
+font-size: 1.2vw;
+}
+
+.trwpwhatsappinput {
+background-color: white;
+border-radius: 0px 0px 12px 12px;
+}
+
+.trwpwhatsappinput input {
+width: 236px;
+border-radius: 10px;
+margin: 1px 1px 0px 10px;
+padding:10px;
+font-family: "Raleway", Arial, sans-serif;
+font-weight: 300;
+font-size: 1.2vw;
+background-color: #efefef;
+border: 1px solid #d4d4d4;
+}
+
+.trwpwhatsappbutton {
+background-color: #22c15e; 
+border-radius: 20px; 
+padding: 8px 15px; 
+cursor: pointer; 
+color: #fff;
+max-width: 220px;
+margin-top: 10px;
+margin-bottom: 10px;
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+
+.trwpwhatsappall {
+position: fixed; 
+z-index: 9999999999999999999; 
+bottom: 0; 
+right: 20px;
+font-family: "Raleway", Arial, sans-serif;
+font-weight: 300;
+font-size: 15px;
+}
+
+.trwpwhatsappsendbutton {
+  color: #22c15e;
+  cursor:pointer;
+}
+
+button[class="trwpwhatsappsendbutton"] {border: none;}
+button[class="trwpwhatsappsendbutton"] i {
+float: right;
+position: absolute;
+z-index: 999999999999;
+right: 15px;
+top: 11;
+bottom: 104px;
+font-size: 18px !important;
+}
+
+.kapat {
+position: absolute;
+right: 8px;
+top: 6px;
+font-size: 13px;
+border: 1px solid #fff;
+border-radius: 99px;
+padding: 2px 5px 2px 5px;
+color: white;
+font-size: 10px;
+cursor: pointer;
+}
+.fa.fa-paper-plane-o{
+  font-size: 1.5vw !important;
+}
+i.fa.fa-whatsapp{
+  font-size:1.45vw !important;
+}
+div[class="trwpwhatsappbutton"] span{
+  font-size: 1.35vw;
+}
+
+
+/*Medias Query*/
+
+@media only screen and (min-width: 280px) and (max-width: 768px) {
+  nav a[class="navbar-brand"]{
+    font-size:5vw;
+  }
+div div h1[class="text-uppercase"]{
+  font-size: 5vw;
+}
+main div div p{
+  font-size: 2vw;
+}
+article div h2, article div p{
+  font-size: 3vw;
+}
+h3{
+  font-size:8vw;
+}
+.trwpwhatsapptitle{
+  font-size: 6.25vw;
+
+}
+.trwpwhatsappmessage{
+  font-size: 6.2vw;
+}
+div[class="trwpwhatsappbutton"] span {
+  font-size: 6.35vw;
+}
+i.fa.fa-whatsapp{
+  font-size: 5.35vw !important;
+}
+}

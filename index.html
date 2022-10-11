@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diseño y Desarrollo Web - J.Mendoza</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="shortcut icon" href="img/logo.webp" type="image/x-icon">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <script defer src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script defer src="button.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script defer src="jsWhast.js"></script>
+</head>
+
+<body>
+  <div class="containermain container-fluid m-0 p-0">
+    <header>
+      <nav class="navbar bg-edit fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="img/logo.webp" alt="" width="30" height="24">
+          </a>
+          <a class="navbar-brand" href="#">Julian Cristian Mendoza</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar">
+            <span class="">
+              <i class="fa-solid fa-bars colorIconHambur"></i>
+            </span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Julian Cristian Mendoza</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Quien Soy</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <div class="d-grid gap-2 mx-auto">
+                <button class="btn btn-edit" type="button">
+                  <i class="fa-brands fa-whatsapp"></i>+54 342 409 4472</button>
+                <button class="btn btn-primary" type="button">Linkedin Account</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="container-fluid m-0 p-0 d-flex flex-column align-conten-center justify-content-center">
+      <div class="container-fluid p-0 m-0 row align-items-center colorBG">
+        <img src="img/miphoto.jpg" alt="Foto de Julian" srcset=""
+          class="img-fluid col-6 wow animate__fadeIn">
+        
+        <div class="col-6 fs-3 wow animate__fadeInDown">
+          <h1 class="text-uppercase">Julian Cristian Mendoza</h1>
+          <p>
+            Desarrollador Web (HTML, CSS, JS, BOOTSTRAP, SASS), Reparador Y Mantenimiento PC (Software y Hardware).
+          </p>
+        </div>
+      </div>
+
+    </main>
+    <article class="row container-fluid m-0 p-0 articleServices">
+      <div class="col-4 wow animate__fadeIn">
+        <i class="fa-solid fa-code iconDeveloper"></i>
+        <h2>Desarrollo Web</h2>
+        <p>Cuento con las tecnologias <i>HTML, CSS, JS, BOOTSTRAP, SASS </i>Y metodologias para el correcto posicionamiento en la Internet (SEO), por ampliar tecnologias como: "React, JQuery, SQL, etc...</p>
+      </div>
+      <div class="col-4 wow animate__fadeIn">
+        <i class="fa-solid fa-marker iconDesing"></i>
+        <h2>Diseño</h2>
+        <p>Diseño y prototipado de una Pagina Web previo desarrollo. Dieño para publicidad y comercialiacion de tu negocio, para tu cumpleaños, tu fiesta entre otros eventos, etc.</p>
+      </div>
+      <div class="col-4 wow animate__fadeIn">
+        <i class="fa-solid fa-wrench iconTech"></i>
+        <h2>Reparacion y Mantenimiento PC</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam harum perferendis vero nobis quisquam,
+          cupiditate voluptates quibusdam corporis non suscipit dolores ullam minus tenetur eum ea porro laboriosam sed
+          voluptas?</p>
+      </div>
+
+    </article>
+    <section>
+      <h3 class="pt-3">Contacto</h3>
+      <div class="input-group row">
+        <form action="https://formspree.io/f/xzbojwvj" method="POST" class="input-group row mt-5" target="_blank">
+          <input type="text" aria-label="First name" class="form-control col-4" placeholder="Nombre">
+          <input type="text" aria-label="Last name" class="form-control col-4" placeholder="Email/Telefono">
+
+          <button class="btn btn-outline-secondary col-4" type="submit">Solicita Contacto</button>
+        </form>
+
+      </div>
+
+      <div class="DATES">
+        <p> <strong>Direccion:</strong> Santa Fe, Argentina.</p>
+        <p><strong>Phone:</strong> (+54) 342-409-4472 | Email: xfactor67a@gmail.com</p>
+      </div>
+    </section>
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+            <h6>SOBRE MI</h6>
+            <p class="text-justify">Hola Soy Julian Cristian Mendoza, <i>Soy Web Developer, amante del estudio</i>
+              , y tengo 21 años. Actualmente resido en Santa Fe, Capital. Y me gustaría adentrarme en el ámbito laboral
+              para poder independizarme, adquirir nuevas experiencias y desarrollarme como individuo. Actualmente me
+              desenvuelvo como autónomo Técnico Reparador y de Mantenimiento en PC (Software y Hardware), con diferentes
+              certificaciones en el ámbito informático y tecnológico. Actualmente me estoy capacitando para el ámbito
+              del "Desarrollo Web". Estando en la etapa final del curso "Desarrollo Web" dictado por CoderHouse. Con
+              mira de profesionalizarme con JavaScript y demás tecnologías enfocadas al Desarrollo Web FULL STACK.</p>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Categories</h6>
+            <ul class="footer-links">
+              <li><a href="http://scanfcode.com/category/c-language/">HTML</a></li>
+              <li><a href="http://scanfcode.com/category/front-end-development/">CSS</a></li>
+              <li><a href="http://scanfcode.com/category/back-end-development/">DESING</a></li>
+              <li><a href="http://scanfcode.com/category/java-programming-language/">DEVELOPER</a></li>
+              <li><a href="http://scanfcode.com/category/android/">REPARACION PC</a></li>
+              <li><a href="http://scanfcode.com/category/templates/">MANTENIMIENTO PC</a></li>
+            </ul>
+          </div>
+
+          <div class="col-xs-6 col-md-3">
+            <h6>Quick Links</h6>
+            <ul class="footer-links">
+              <li><a href="">Sobre mi.</a></li>
+              <li><a href="xfactor67a@gmail.com">Email.</a></li>
+              <li><a href="">Repositorio</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">Copyright &copy; 2022 All Rights Reserved by
+              <a href="https://www.instagram.com/julian_mendoza_0001/?hl=es" target="_blank">Julian Cristian
+                Mendoza</a>.
+            </p>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a class="twitter" href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+              <li><a class="dribbble" href="#"><i class="fa-brands fa-instagram"></i></a></li>
+              <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="https://kit.fontawesome.com/9177750629.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+    integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous">
+  </script>
+  <script src="wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+
+  <div class="trwpwhatsappall">
+    <div class="trwpwhatsappballon">
+      <span id="kapatac" class="kapat">X</span>
+      <div class="trwpwhatsapptitle">
+        Hola Que tal, en que te puedo Ayudar?
+      </div>
+      <div class="trwpwhatsappmessage">
+        Escriba su mensaje
+      </div>
+      <div class="trwpwhatsappinput">
+        <form action="https://web.whatsapp.com/send?" method="get" target="_blank">
+          <input type="text" name="phone" value="543424094472" hidden>
+          <input type="text" name="text" placeholder="Aqui." autocomplete="off">
+          <button class="trwpwhatsappsendbutton" type="submit">
+            <i class="fa fa-paper-plane-o"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+
+
+    <div id="ackapa" class="trwpwhatsappbutton">
+      <i class="fa fa-whatsapp"></i> <span>WhastApp</span>
+    </div>
+   
+
+
+
+</body>
+
+</html>
