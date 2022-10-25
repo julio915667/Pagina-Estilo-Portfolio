@@ -411,7 +411,7 @@ div[class="trwpwhatsappbutton"] span{
 
 /*Medias Query*/
 
-@media only screen and (min-width: 280px) and (max-width: 768px) {
+@media only screen and (min-width: 280px) and (max-width: 420px) {
   main [class="container-fluid m-0 p-0 d-flex flex-column align-conten-center justify-content-center"], div[class="container-fluid p-0 m-0 row align-items-center colorBG"]{
     height: 500px;
   }
@@ -448,5 +448,45 @@ i.fa.fa-whatsapp{
 }
 .trwpwhatsappinput input{
   font-size: 5.25vw !important;
+}
+}
+
+@media only screen and (min-width: 420px) and (max-width: 920px) {
+  main [class="container-fluid m-0 p-0 d-flex flex-column align-conten-center justify-content-center"], div[class="container-fluid p-0 m-0 row align-items-center colorBG"]{
+    height: 500px;
+  }
+  nav a[class="navbar-brand"]{
+    font-size:5vw;
+  }
+div div h1[class="text-uppercase"]{
+  font-size: 8vw;
+}
+main div div p{
+  font-size: 3.2vw;
+}
+article div h2, article div p{
+  font-size: 3vw;
+}
+h3{
+  font-size:8vw;
+}
+.trwpwhatsapptitle{
+  font-size: 20px;
+
+}
+.trwpwhatsappmessage{
+  font-size: 20px;
+}
+div[class="trwpwhatsappbutton"] span {
+  font-size: 20px;
+}
+i.fa.fa-whatsapp{
+  font-size: 5.35vw !important;
+}
+.fa.fa-paper-plane-o{
+  font-size: 5.35vw !important;
+}
+.trwpwhatsappinput input{
+  font-size: 20px !important;
 }
 }
