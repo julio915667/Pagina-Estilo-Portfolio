@@ -492,8 +492,17 @@ i.fa.fa-whatsapp{
 }
 }
 
-
+i.fa.fa-whatsapp {
+  font-size: 2vw !important;
+}
 .btn-wsp{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-decoration: none;
   position:fixed;
   width:60px;
   height:60px;
